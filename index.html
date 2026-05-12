@@ -1,1 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catch and Release Fishing</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
 
+    body {
+      background-color: #eef7f5;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    nav {
+      background-color: #0c4b33;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    h2 {
+      color: #0c4b33;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .steps {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .steps ol {
+      margin-left: 20px;
+      margin-top: 15px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    .contact {
+      background-color: #0c4b33;
+      color: white;
+      padding: 40px;
+      border-radius: 12px;
+    }
+
+    footer {
+      background-color: #06281b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media(max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Catch and Release Fishing</h1>
+    <p>Learning how proper catch and release practices help protect fish populations and preserve fishing opportunities for future generations.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#benefits">Benefits</a>
+    <a href="#howto">How To</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Catch and Release</h2>
+    <p>
+      Catch and release fishing is a conservation practice where anglers return fish back into the water after catching them. When done properly, it helps maintain healthy fish populations and protects important fisheries for future anglers. This project explains why catch and release is important and how anglers can safely release fish to improve survival rates.
+    </p>
+  </section>
+
+  <section id="benefits">
+    <h2>Benefits of Catch and Release</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Protects Fish Populations</h3>
+        <p>Releasing fish allows them to continue growing and reproducing, helping maintain healthy populations.</p>
+      </div>
+
+      <div class="card">
+        <h3>Supports Conservation</h3>
+        <p>Catch and release reduces overharvest and helps fisheries biologists manage fish populations sustainably.</p>
+      </div>
+
+      <div class="card">
+        <h3>Preserves Fishing Opportunities</h3>
+        <p>Healthy fisheries provide better fishing experiences for future generations of anglers.</p>
+      </div>
+
+      <div class="card">
+        <h3>Protects Large Breeding Fish</h3>
+        <p>Larger fish often produce more eggs and stronger offspring, making them important to release.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="howto">
+    <h2>How to Properly Catch and Release Fish</h2>
+
+    <div class="steps">
+      <ol>
+        <li>Use barbless hooks or circle hooks when possible.</li>
+        <li>Land fish quickly to reduce exhaustion.</li>
+        <li>Wet your hands before touching the fish to protect its slime coat.</li>
+        <li>Keep the fish in the water as much as possible.</li>
+        <li>Use rubber landing nets to reduce injury.</li>
+        <li>Remove hooks carefully and quickly.</li>
+        <li>Support the fish horizontally when handling it.</li>
+        <li>Release the fish gently back into the water until it swims away strongly.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Fishing Gallery</h2>
+
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?auto=format&fit=crop&w=800&q=80" alt="Fishing">
+
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Lake">
+
+      <img src="https://images.unsplash.com/photo-1521207418485-99c705420785?auto=format&fit=crop&w=800&q=80" alt="Fish">
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <h2>Contact Information</h2>
+
+      <p><strong>Ashland Fisheries Biologist Department</strong></p>
+
+      <p>
+        Add the fisheries biologist contact information here.
+      </p>
+
+      <br>
+
+      <p><strong>Example:</strong></p>
+      <p>Phone: (207) XXX-XXXX</p>
+      <p>Email: example@maine.gov</p>
+      <p>Location: Ashland, Maine</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Senior Project Website | Catch and Release Fishing Conservation</p>
+  </footer>
+
+</body>
+</html>
